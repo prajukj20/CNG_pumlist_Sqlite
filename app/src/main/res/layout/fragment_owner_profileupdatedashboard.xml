@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".owner_profileupdatedashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Owner Dashboard"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:textSize="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:background="#FFEB3B"
+            android:gravity="center"></TextView>
+
+
+        <Button
+            android:id="@+id/pumplist"
+            android:layout_below="@+id/Dashboard"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:text="Update profile List"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:textColor="#FFEB3B"
+            android:layout_marginTop="40dp"
+            ></Button>
+
+
+        <Button
+            android:id="@+id/intrest"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/pumplist"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:padding="5dp"
+            android:text="Update Notification"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="bold"></Button>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/ownerdashfrem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".owner_dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ownerpay"></FrameLayout>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/ownerprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:background="#FFEB3B"
+            android:textStyle="bold"
+            android:textColor="#FA1E1E"
+            android:gravity="center"
+            android:text="Owner Update Profile">
+
+        </TextView>
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/pumpname"
+            android:layout_below="@+id/ownerprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:hint="Bhart Petrol Pump">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/pumpadd"
+            android:layout_below="@+id/pumpname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="Agra Road Janta Market, near Magnet Mall, Bhandup, Mumbai, Maharashtra 400078">
+        </EditText>
+
+        <EditText
+            android:id="@+id/LANmark"
+            android:layout_below="@+id/pumpadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="location LANmark">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/openhours"
+            android:layout_below="@+id/LANmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="Open hourse">
+        </EditText>
+        <EditText
+            android:id="@+id/user_id"
+            android:layout_below="@+id/openhours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="User_id">
+        </EditText>
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_below="@+id/user_id"
+            android:layout_width="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:text="SAVE"
+            android:textStyle="bold"
+            android:textSize="20dp"></Button>
+
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

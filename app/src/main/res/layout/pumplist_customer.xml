@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/pumpname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Bhart Petrol Pump">
+
+    </TextView>
+
+        <TextView
+            android:id="@+id/pumpadd"
+            android:layout_below="@+id/pumpname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Agra Road Janta Market, near Magnet Mall, Bhandup, Mumbai, Maharashtra 400078">
+        </TextView>
+
+        <TextView
+            android:id="@+id/LANloca"
+            android:layout_below="@+id/pumpadd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Lanmark Location">
+        </TextView>
+
+        <TextView
+                android:id="@+id/openhours"
+            android:layout_below="@+id/LANloca"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Open hourse">
+        </TextView>
+
+
+    </RelativeLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/petrolfrem"></FrameLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
